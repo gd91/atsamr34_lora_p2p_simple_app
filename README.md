@@ -90,7 +90,7 @@ BW is the physical bandwidth for RF modulation (e.g. 125kHz). Larger signal band
 CR, the coding rate for forward error detection and correction. Such coding incurs a transmission overhead and the lower the coding rate, the higher the coding rate overhead ratio, e.g. with coding rate=4/(4+CR) the overhead ratio is 1.25 for CR=1 which is the minimum value. </br>
 Finally, the spreading factor (SF), which can be set from 7 to 12. The lower the SF, the higher the data rate transmission but the lower the immunity to interference thus the smaller is the range.
 </br></br>
-To transmit or receive packet from one device to the other, the following functions are required:</br>
+To transmit or receive packet from one device to the other, the following functions are required:
 ```
 RadioError_t RADIO_Receive(RadioReceiveParam_t *param);
 ```
