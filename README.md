@@ -91,13 +91,13 @@ CR, the coding rate for forward error detection and correction. Such coding incu
 Finally, the spreading factor (SF), which can be set from 7 to 12. The lower the SF, the higher the data rate transmission but the lower the immunity to interference thus the smaller is the range.
 </br></br>
 To transmit or receive packet from one device to the other, the following functions are required:
-```
-RadioError_t RADIO_Receive(RadioReceiveParam_t *param);
-```
+
+	RadioError_t RADIO_Receive(RadioReceiveParam_t *param);
+
 This function set the device in receive mode to receive data and store it in the buffer pointer space by doing a task post to the RADIO_RxHandler.
-```
-RadioError_t RADIO_Transmit(RadioTransmitParam_t *param);
-```
+
+	RadioError_t RADIO_Transmit(RadioTransmitParam_t *param);
+
 This function transmits the data by doing a task post to the RADIO_TxHandler.
 
 ## Tutorial
