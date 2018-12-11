@@ -219,7 +219,7 @@ void appData_callback(void *appHandle, appCbParams_t *appdata)
 - Reset the two boards
 - On both sides, the application will start and on Tera Term the menu is displayed.</br>
 
-From here, you can interact with the application </br>
+From here, you can interact with the application. </br>
 
 ![](Doc/LoRa_P2P_Simple_App_MainMenu.png) </br></br>
 From the main menu, you can transmit a counter value by pressing the SW0 button or you can emulate a serial port between two ATSAMR34 Xplained Pro boards. It reads input data from serial interface and transmit the data to the other board via LoRa radio. The EDBG interfaces will print out messages you typed or received.</br></br>
