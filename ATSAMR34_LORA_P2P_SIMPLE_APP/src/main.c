@@ -214,7 +214,7 @@ static void configure_radio(void)
 
 	// radio set sf sf12
 	int16_t sf = SF_12 ;
-	RADIO_SetAttr(OUTPUT_POWER,(void *)&sf) ;
+	RADIO_SetAttr(SPREADING_FACTOR,(void *)&sf) ;
 	printf("Configuring Radio SF %d\r\n", sf) ;
 
 	// radio set wdt 60000
